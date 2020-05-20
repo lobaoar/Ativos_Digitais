@@ -1,6 +1,6 @@
 # Ativos_Digitais
 ## Projeto Final ATIVOS DIGITAIS E BLOCKCHAIN
-####Participantes:
+#### Participantes:
 - Artur Leão - Engenharia Mecat.
 - Bruno Britto - Adm/Eco
 - Vinicius Gomes Lima - Engenharia Comp.*
