@@ -1,10 +1,11 @@
-pragma solidity ^0.4.21;
 
-import "./ierc20token.sol";
-
-contract EnglishAuction {
+    pragma solidity >0.4.21;
+    
+    import"./ierc20token.sol";
+    
+    contract EnglishAuction{
     address seller;
-
+    
     IERC20Token public token;
     uint256 public reservePrice;
     uint256 public minIncrement;
@@ -74,18 +75,19 @@ contract EnglishAuction {
 
             highBidder = 0;
         }
-    }
-}
-//Código acima retirado de https://programtheblockchain.com/posts/2018/03/20/writing-a-token-auction-contract/
-//utilizado como base para criação do código a seguir, onde implementamos algumas mudanças, contidas nos slides de aula da matéria de 
-//ATIVOS DIGITAIS E BLOCKCHAIN - ELET_A 2020/1, ministrada no Insper, pelos professores: RICARDO HUMBERTO ROCHA;  RAUL IKEDA GOMES DA SILVA;
-//No primeiro Semestre de 2020. Resultando no seguinte código:
+    } 
+	}
 
 
-pragma solidity >=0.4.22 <0.7.0;
+Código acima retirado de https://programtheblockchain.com/posts/2018/03/20/writing-a-token-auction-contract/
+utilizado como base para criação do código a seguir, onde implementamos algumas mudanças, contidas nos slides de aula da matéria de 
+ATIVOS DIGITAIS E BLOCKCHAIN - ELET_A 2020/1, ministrada no Insper, pelos professores: RICARDO HUMBERTO ROCHA;  RAUL IKEDA GOMES DA SILVA;
+No primeiro Semestre de 2020. Resultando no seguinte código:
 
-contract Leilao {
-    
+
+
+    pragma solidity >0.4.21;
+    contract Leilao {
     address payable public Beneficiado;
     uint public DuracaoLeilao;
     address public DonoMaiorLance;
@@ -139,4 +141,4 @@ contract Leilao {
 
         Beneficiado.transfer(MaiorLance);
     }
-}
+	}
