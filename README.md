@@ -6,7 +6,7 @@
 
 #### Descrição:
 
-- Nesse Projeto iremos Criar um Leilão de Asset Auction, onde iremos leiloar alem de carros, Jatinhos, aviões particulares e Yachts, iremos leiloar imóveis, residenciais e empresarias, sendo assim teremos que trabalhar tambem, não so com a transferencia de bens no mundo fisico, mas tambem com a transferencia de documentos e dinheiro no mundo virtual.
+- Nesse Projeto iremos Criar um Leilão de Asset Auction, onde iremos leiloar alem de carros, Jatinhos, aviões particulares e Yachts, iremos leiloar imóveis, residenciais e empresarias, sendo assim teremos que trabalhar tambem, não so com a transferencia de bens no mundo fisico, mas tambem com a transferencia de dinheiro no mundo virtual e a comprovação da existencia dos bens ou documentos para garantia do leilão, utilizando tokens.
 
 
 
